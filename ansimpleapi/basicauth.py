@@ -1,6 +1,6 @@
 import hashlib, binascii, os
 
-class Auth(object):
+class BasicAuth(object):
   def __init__(self, auth_dict):
     self.auth_dict = auth_dict
  

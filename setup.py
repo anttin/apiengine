@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="apiengine",
-    version="0.1.0",
+    name="ansimpleapi",
+    version="0.2.0",
     author="anttin",
     author_email="muut.py@antion.fi",
-    description="A simple api engine framework",
+    description="A very simple api engine framework",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/anttin/apiengine",
+    url="https://github.com/anttin/apiengine/tree/ansimpleapi",
     packages=setuptools.find_packages(),
     install_requires=[
       'cherrypy'
