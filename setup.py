@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="apiengine",
-    version="0.0.1",
+    version="0.1.0",
     author="anttin",
     author_email="muut.py@antion.fi",
     description="A simple api engine framework",
